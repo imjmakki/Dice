@@ -16,6 +16,8 @@ void main() {
 }
 
 class DicePage extends StatelessWidget {
+  var LeftDice = 1;
+
   @override
   Widget build(BuildContext context) {
     return Center(
