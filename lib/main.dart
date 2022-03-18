@@ -36,7 +36,8 @@ class _DicePageState extends State<DicePage> {
               onPressed: () {
                 setState(() {
                   leftDice = Random().nextInt(6) + 1;
-                  rightDice = Random().nextInt(6) + 1;
+                  rightDice = Random().nextInt(6) +
+                      1; // for press any one of them and it will press them both
                 });
               },
               child: Image.asset('images/dice$leftDice.png'),
