@@ -32,7 +32,7 @@ class _DicePageState extends State<DicePage> {
           Expanded(
             child: FlatButton(
               onPressed: () {
-                print('Left Button has been pressed');
+                setState(() {});
               },
               child: Image.asset('images/dice$LeftDice.png'),
             ),
@@ -40,7 +40,7 @@ class _DicePageState extends State<DicePage> {
           Expanded(
             child: FlatButton(
               onPressed: () {
-                print('right Button Has been pressed');
+                setState(() {});
               },
               child: Image.asset('images/dice1.png'),
             ),
