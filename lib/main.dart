@@ -52,8 +52,7 @@ class _DicePageState extends State<DicePage> {
             child: FlatButton(
               onPressed: () {
                 setState(() {
-                  leftDice = Random().nextInt(6) + 1;
-                  rightDice = Random().nextInt(6) + 1;
+                  changeDice();
                 });
               },
               child: Image.asset('images/dice$rightDice.png'),
