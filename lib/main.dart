@@ -50,5 +50,3 @@ class _DicePageState extends State<DicePage> {
     );
   }
 }
-
-class DicePage extends StatelessWidget {}
