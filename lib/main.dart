@@ -21,7 +21,6 @@ class DicePage extends StatelessWidget {
     return Row(
       children: [
         Image(
-          width: 200.0,
           image: AssetImage('images/dice1.png'),
         ),
       ],
